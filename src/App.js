@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./style.css";
 
 class App extends React.Component {
@@ -28,7 +28,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/">Map()</Link>
+        <Router>
+          <Link to="/">Map()</Link>
+        </Router>
+
         <table>
           <tbody>
             <tr>
