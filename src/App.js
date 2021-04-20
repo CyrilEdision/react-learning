@@ -4,28 +4,7 @@ import "./style.css";
 import MapEx from "./component/Map";
 import UseEffectEx from "./component/UseEffectEx";
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      data: [
-        {
-          id: 1,
-          name: "cyril",
-          age: 25
-        },
-        {
-          id: 2,
-          name: "Jose",
-          age: 26
-        },
-        {
-          id: 3,
-          name: "Nisha",
-          age: 24
-        }
-      ]
-    };
-  }
+  
   render() {
     return (
       <div>
