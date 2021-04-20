@@ -1,7 +1,7 @@
 import React from "react";
 
 const UseEffectEx = () => {
-  return <div>Map</div>;
+  return <div>UseEffect</div>;
 };
 
 export default UseEffectEx;
